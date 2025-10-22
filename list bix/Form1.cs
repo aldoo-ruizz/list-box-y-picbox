@@ -34,6 +34,15 @@ namespace list_bix
                 case "Perro":
                     pbanimales.Image = Image.FromFile("C:\\Users\\MiniLab-ing04\\source\\repos\\list bix\\list bix\\perros2_56d11542_800x800.jpg");
                     break;
+                case "Gato":
+                    pbanimales.Image = Image.FromFile("C:\\Users\\MiniLab-ing04\\source\\repos\\list bix\\list bix\\image.jpg");
+                    break;
+                case "Conejo":
+                    pbanimales.Image = Image.FromFile("C:\\Users\\MiniLab-ing04\\source\\repos\\list bix\\list bix\\conejo.jpg");
+                    break;
+                case "Pez":
+                    pbanimales.Image = Image.FromFile("C:\\Users\\MiniLab-ing04\\source\\repos\\list bix\\list bix\\pez.jpg");
+                    break;
             }
         }
     }
